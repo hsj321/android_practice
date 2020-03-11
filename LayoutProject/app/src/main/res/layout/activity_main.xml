@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FAFAFA"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="#FAFAFA"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="0"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:layout_gravity="top"
+            tools:layout_editor_absoluteX="0dp">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="0dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:contentDescription="@string/miss_image"
+                    app:srcCompat="@drawable/melon_menu" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:contentDescription="@string/miss_image"
+                    app:srcCompat="@drawable/melon_ticket" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/miss_image"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:stateListAnimator="@null"
+                app:srcCompat="@drawable/melon_logo" />
+
+            <LinearLayout
+                android:layout_width="105dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:contentDescription="@string/miss_image"
+                    app:srcCompat="@drawable/melon_mic" />
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:contentDescription="@string/miss_image"
+                    app:srcCompat="@drawable/melon_search" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_weight="0"
+            android:background="#FFFFFF"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:gravity="top"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="52dp"
+                        android:layout_height="30dp"
+                        android:background="#FAFAFA"
+                        android:padding="0dp"
+                        android:text="@string/music"
+                        android:textColor="#2AB545" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton17"
+                        android:layout_width="52dp"
+                        android:layout_height="10dp"
+                        android:background="#FFFFFF"
+                        android:contentDescription="@string/miss_image"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/melon_dot" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="top"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button2"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="65dp"
+                        android:layout_height="30dp"
+                        android:padding="0dp"
+                        android:text="@string/video" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton10"
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:contentDescription="@string/miss_image"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/melon_white" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="top"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button6"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="52dp"
+                        android:layout_height="30dp"
+                        android:padding="0dp"
+                        android:text="@string/my" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton11"
+                        android:layout_width="52dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:contentDescription="@string/miss_image"
+                        android:padding="0dp"
+                        android:scaleType="fitStart"
+                        app:srcCompat="@drawable/melon_white" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="top"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button7"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="68dp"
+                        android:layout_height="30dp"
+                        android:padding="0dp"
+                        android:text="@string/for_u" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton12"
+                        android:layout_width="68dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:contentDescription="@string/miss_image"
+                        android:padding="0dp"
+                        android:scaleType="fitStart"
+                        app:srcCompat="@drawable/melon_white" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="top"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button3"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="52dp"
+                        android:layout_height="30dp"
+                        android:padding="0dp"
+                        android:text="@string/star" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton13"
+                        android:layout_width="52dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:contentDescription="@string/miss_image"
+                        android:padding="0dp"
+                        android:scaleType="fitStart"
+                        app:srcCompat="@drawable/melon_white" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="top"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button5"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="52dp"
+                        android:layout_height="30dp"
+                        android:padding="0dp"
+                        android:text="@string/feed" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton14"
+                        android:layout_width="52dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:contentDescription="@string/miss_image"
+                        android:padding="0dp"
+                        android:scaleType="fitStart"
+                        app:srcCompat="@drawable/melon_white" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="top"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button4"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="52dp"
+                        android:layout_height="30dp"
+                        android:padding="0dp"
+                        android:text="@string/show" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton15"
+                        android:layout_width="52dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:contentDescription="@string/miss_image"
+                        android:padding="0dp"
+                        android:scaleType="fitStart"
+                        app:srcCompat="@drawable/melon_white" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FAFAFA">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FAFAFA"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="151dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/miss_image"
+                            android:padding="0dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/melon_recommendation" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12.6dp"
+                        android:background="#FAFAFA">
+
+
+                        <LinearLayout
+                            android:id="@+id/newLinear"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:background="#FAFAFA"
+                            android:gravity="center">
+
+                            <Button
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center|end"
+                                android:padding="0dp"
+                                android:singleLine="true"
+                                android:text="@string/new_music"
+                                android:textColor="#1B1B1B"
+                                android:textSize="24sp" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="20dp"
+                                android:backgroundTint="#F5F5F5"
+                                android:contentDescription="@string/miss_image"
+                                android:padding="0dp"
+                                android:scaleType="fitStart"
+                                app:srcCompat="@drawable/melon_arrow" />
+
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/button19"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="38dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toStartOf="@id/view3"
+                            android:padding="0dp"
+                            android:text="@string/all"
+                            android:textColor="#28AE41"
+                            android:textSize="15sp" />
+
+                        <View
+                            android:id="@+id/view3"
+                            android:layout_width="1dp"
+                            android:layout_height="6dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_toStartOf="@id/button18"
+                            android:background="#C8C8C8" />
+
+                        <Button
+                            android:id="@+id/button18"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="38dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toStartOf="@id/view4"
+                            android:layout_weight="1"
+                            android:padding="0dp"
+                            android:singleLine="true"
+                            android:text="@string/domestic"
+                            android:textColor="#656565" />
+
+                        <View
+                            android:id="@+id/view4"
+                            android:layout_width="1dp"
+                            android:layout_height="6dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_toStartOf="@id/button17"
+                            android:background="#C8C8C8" />
+
+                        <Button
+                            android:id="@+id/button17"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="38dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:padding="0dp"
+                            android:singleLine="true"
+                            android:text="@string/overseas"
+                            android:textColor="#5A5A5A" />
+
+                        <HorizontalScrollView
+                            android:id="@+id/newMusicScroll"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/newLinear"
+                            android:scrollbars="none">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+
+                                    android:layout_marginStart="10dp">
+
+                                    <ImageButton
+                                        android:id="@+id/newMusic1"
+                                        android:layout_width="120dp"
+                                        android:layout_height="120dp"
+                                        android:contentDescription="@string/miss_image"
+                                        android:padding="0dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/melon_new_music_first" />
+
+                                    <Button
+                                        android:id="@+id/button11"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        android:layout_width="120dp"
+                                        android:layout_height="25dp"
+                                        android:layout_below="@+id/newMusic1"
+                                        android:ellipsize="end"
+                                        android:gravity="start"
+                                        android:padding="0dp"
+                                        android:singleLine="true"
+                                        android:text="@string/new_music_1_name"
+                                        android:textSize="15sp" />
+
+                                    <Button
+                                        android:id="@+id/button10"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        android:layout_width="120dp"
+                                        android:layout_height="19dp"
+                                        android:layout_below="@+id/button11"
+                                        android:ellipsize="end"
+                                        android:gravity="start"
+                                        android:padding="0dp"
+                                        android:singleLine="true"
+                                        android:text="@string/new_music_1_imformation"
+                                        android:textColor="#A0A0A0"
+                                        android:textSize="14sp" />
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginStart="2dp">
+
+                                    <ImageButton
+                                        android:id="@+id/newMusic2"
+                                        android:layout_width="120dp"
+                                        android:layout_height="120dp"
+                                        android:contentDescription="@string/miss_image"
+                                        android:padding="0dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/melon_new_music2" />
+
+                                    <Button
+                                        android:id="@+id/button12"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        android:layout_width="120dp"
+                                        android:layout_height="25dp"
+                                        android:layout_below="@+id/newMusic2"
+                                        android:ellipsize="end"
+                                        android:gravity="start"
+                                        android:padding="0dp"
+                                        android:singleLine="true"
+                                        android:text="@string/new_music_2_name"
+                                        android:textSize="15sp" />
+
+                                    <Button
+                                        android:id="@+id/button13"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        android:layout_width="120dp"
+                                        android:layout_height="19dp"
+                                        android:layout_below="@+id/button12"
+                                        android:ellipsize="end"
+                                        android:gravity="start"
+                                        android:padding="0dp"
+                                        android:singleLine="true"
+                                        android:text="@string/new_music_2_imformation"
+                                        android:textColor="#A0A0A0"
+                                        android:textSize="14sp" />
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginStart="2dp">
+
+                                    <ImageButton
+                                        android:id="@+id/newMusic3"
+                                        android:layout_width="120dp"
+                                        android:layout_height="120dp"
+                                        android:contentDescription="@string/miss_image"
+                                        android:padding="0dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/melon_new_music3" />
+
+                                    <Button
+                                        android:id="@+id/button14"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        android:layout_width="120dp"
+                                        android:layout_height="25dp"
+                                        android:layout_below="@+id/newMusic3"
+                                        android:ellipsize="end"
+                                        android:gravity="start"
+                                        android:padding="0dp"
+                                        android:singleLine="true"
+                                        android:text="@string/new_music_3_name"
+                                        android:textSize="15sp" />
+
+                                    <Button
+                                        android:id="@+id/button15"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        android:layout_width="120dp"
+                                        android:layout_height="19dp"
+                                        android:layout_below="@+id/button14"
+                                        android:ellipsize="end"
+                                        android:gravity="start"
+                                        android:padding="0dp"
+                                        android:singleLine="true"
+                                        android:text="@string/new_music_3_imformation"
+                                        android:textColor="#A0A0A0"
+                                        android:textSize="14sp" />
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginStart="2dp">
+
+                                    <ImageButton
+                                        android:id="@+id/newMusic4"
+                                        android:layout_width="120dp"
+                                        android:layout_height="120dp"
+                                        android:contentDescription="@string/miss_image"
+                                        android:padding="0dp"
+                                        android:scaleType="fitCenter"
+                                        app:srcCompat="@drawable/melon_new_music4" />
+
+                                    <Button
+                                        android:id="@+id/button16"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        android:layout_width="120dp"
+                                        android:layout_height="25dp"
+                                        android:layout_below="@+id/newMusic4"
+                                        android:ellipsize="end"
+                                        android:gravity="start"
+                                        android:padding="0dp"
+                                        android:singleLine="true"
+                                        android:text="@string/new_music_4_name"
+                                        android:textSize="15sp" />
+
+                                    <Button
+                                        android:id="@+id/button1"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        android:layout_width="120dp"
+                                        android:layout_height="19dp"
+                                        android:layout_below="@+id/button16"
+                                        android:ellipsize="end"
+                                        android:gravity="start"
+                                        android:padding="0dp"
+                                        android:singleLine="true"
+                                        android:text="@string/new_music_4_imformation"
+                                        android:textColor="#A0A0A0"
+                                        android:textSize="14sp" />
+                                </RelativeLayout>
+
+                            </LinearLayout>
+                        </HorizontalScrollView>
+
+                        <View
+                            android:id="@+id/view2"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_below="@+id/newMusicScroll"
+                            android:layout_marginTop="15dp"
+                            android:background="#EDEDED" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12.5dp"
+                        android:paddingTop="25dp">
+
+                        <LinearLayout
+                            android:id="@+id/chart"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:background="#FAFAFA"
+                            android:gravity="center">
+
+                            <Button
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center|end"
+                                android:padding="0dp"
+                                android:singleLine="true"
+                                android:text="@string/melon_chart"
+                                android:textColor="#1B1B1B"
+                                android:textSize="24sp" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="20dp"
+                                android:backgroundTint="#F5F5F5"
+                                android:contentDescription="@string/miss_image"
+                                android:padding="0dp"
+                                android:scaleType="fitStart"
+                                app:srcCompat="@drawable/melon_arrow" />
+
+                        </LinearLayout>
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/chart"
+                            android:background="@drawable/melon_background">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <RelativeLayout
+                                    android:layout_width="350dp"
+                                    android:layout_height="434.5dp"
+                                    android:layout_marginStart="18dp"
+                                    android:background="#DDFFFFFF"
+                                    android:paddingStart="25dp"
+                                    android:paddingTop="10dp"
+                                    android:paddingEnd="25dp"
+                                    android:paddingBottom="25dp">
+
+                                    <RelativeLayout
+                                        android:id="@+id/chart_top"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="35dp">
+
+                                        <LinearLayout
+                                            android:layout_width="160dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_alignParentStart="true"
+                                            android:layout_alignParentTop="true"
+                                            android:orientation="horizontal">
+
+
+                                            <TextView
+                                                android:id="@+id/textView4"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:gravity="center"
+                                                android:text="@string/number1"
+                                                android:textColor="#48B2A6" />
+
+                                            <TextView
+                                                android:id="@+id/textView3"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_marginStart="3dp"
+                                                android:gravity="center"
+                                                android:text="@string/real_time_chart"
+                                                android:textColor="#393939" />
+
+                                        </LinearLayout>
+
+                                        <Button
+                                            style="?android:attr/borderlessButtonStyle"
+                                            android:layout_width="46dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_toStartOf="@id/morearrow"
+                                            android:gravity="center|end"
+                                            android:padding="0dp"
+                                            android:text="@string/more"
+                                            android:textSize="12sp" />
+
+                                        <ImageButton
+                                            android:id="@+id/morearrow"
+                                            android:layout_width="10dp"
+                                            android:layout_height="10dp"
+                                            android:layout_alignParentEnd="true"
+                                            android:layout_centerVertical="true"
+                                            android:contentDescription="@string/miss_image"
+                                            android:padding="0dp"
+                                            android:scaleType="fitCenter"
+                                            app:srcCompat="@drawable/melon_arrow" />
+
+                                    </RelativeLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="470dp"
+                                        android:layout_below="@id/chart_top"
+                                        android:orientation="vertical">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="48dp"
+                                            android:layout_marginBottom="17dp">
+
+                                            <ImageButton
+                                                android:id="@+id/chart_1"
+                                                android:layout_width="48dp"
+                                                android:layout_height="48dp"
+                                                android:layout_centerVertical="true"
+                                                android:contentDescription="@string/miss_image"
+                                                android:padding="0dp"
+                                                android:scaleType="fitCenter"
+                                                app:srcCompat="@drawable/melon_chart_music1" />
+
+                                            <GridLayout
+                                                android:layout_width="240dp"
+                                                android:layout_height="48dp"
+                                                android:layout_marginTop="3dp"
+                                                android:layout_marginBottom="3dp"
+                                                android:layout_toEndOf="@+id/chart_1"
+                                                android:columnCount="2"
+                                                android:orientation="vertical"
+                                                android:rowCount="2">
+
+
+                                                <TextView
+                                                    android:id="@+id/chart_1_1"
+                                                    android:layout_width="16dp"
+                                                    android:layout_height="23dp"
+                                                    android:layout_marginStart="12dp"
+                                                    android:layout_marginTop="1dp"
+                                                    android:gravity="center"
+                                                    android:text="@string/rank1"
+                                                    android:textColor="#666867"
+                                                    android:textSize="16sp" />
+
+                                                <ImageView
+                                                    android:id="@+id/chart_1_2"
+                                                    android:layout_width="5dp"
+                                                    android:layout_height="20dp"
+                                                    android:layout_gravity="top|center"
+                                                    android:layout_marginStart="12dp"
+                                                    android:contentDescription="@string/miss_image"
+                                                    app:srcCompat="@drawable/melon_bar" />
+
+                                                <TextView
+                                                    android:id="@+id/chart_1_3"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="start"
+                                                    android:layout_marginStart="12dp"
+                                                    android:text="@string/chart_music_1_name"
+                                                    android:textColor="#1C1C1C" />
+
+                                                <TextView
+                                                    android:id="@+id/chart_1_4"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="start"
+                                                    android:layout_marginStart="12dp"
+                                                    android:text="@string/chart_music_1_singer"
+                                                    android:textColor="#B7B7B7"
+                                                    android:textSize="13sp" />
+                                            </GridLayout>
+
+                                            <ImageButton
+                                                android:layout_width="20dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_alignParentEnd="true"
+                                                android:background="#DDFFFFFF"
+                                                android:contentDescription="@string/miss_image"
+                                                android:padding="0dp"
+                                                android:scaleType="fitCenter"
+                                                app:srcCompat="@drawable/melon_play" />
+
+
+                                        </RelativeLayout>
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="48dp"
+                                            android:layout_marginBottom="17dp">
+
+                                            <ImageButton
+                                                android:id="@+id/chart_2"
+                                                android:layout_width="48dp"
+                                                android:layout_height="48dp"
+                                                android:layout_centerVertical="true"
+                                                android:contentDescription="@string/miss_image"
+                                                android:padding="0dp"
+                                                android:scaleType="fitCenter"
+                                                app:srcCompat="@drawable/melon_chart_music2" />
+
+                                            <GridLayout
+                                                android:layout_width="240dp"
+                                                android:layout_height="48dp"
+                                                android:layout_marginTop="3dp"
+                                                android:layout_marginBottom="3dp"
+                                                android:layout_toEndOf="@+id/chart_2"
+                                                android:columnCount="2"
+                                                android:orientation="vertical"
+                                                android:rowCount="2">
+
+
+                                                <TextView
+                                                    android:id="@+id/chart_2_1"
+                                                    android:layout_width="16dp"
+                                                    android:layout_height="23dp"
+                                                    android:layout_row="0"
+                                                    android:layout_column="1"
+                                                    android:layout_marginStart="12dp"
+                                                    android:layout_marginTop="1dp"
+                                                    android:gravity="center"
+                                                    android:text="@string/rank2"
+                                                    android:textColor="#666867"
+                                                    android:textSize="16sp" />
+
+                                                <ImageView
+                                                    android:id="@+id/view10"
+                                                    android:layout_width="5dp"
+                                                    android:layout_height="20dp"
+                                                    android:layout_gravity="top|center"
+                                                    android:layout_marginStart="12dp"
+                                                    android:contentDescription="@string/miss_image"
+                                                    app:srcCompat="@drawable/melon_bar" />
+
+                                                <TextView
+                                                    android:id="@+id/chart_2_2"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="start"
+                                                    android:layout_marginStart="12dp"
+                                                    android:text="@string/chart_music_2_name"
+                                                    android:textColor="#1C1C1C" />
+
+                                                <TextView
+                                                    android:id="@+id/chart_2_3"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="start"
+                                                    android:layout_marginStart="12dp"
+                                                    android:text="@string/chart_music_2_singer"
+                                                    android:textColor="#B7B7B7"
+                                                    android:textSize="13sp" />
+                                            </GridLayout>
+
+                                            <ImageButton
+                                                android:layout_width="20dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_alignParentEnd="true"
+                                                android:background="#DDFFFFFF"
+                                                android:contentDescription="@string/miss_image"
+                                                android:padding="0dp"
+                                                android:scaleType="fitCenter"
+                                                app:srcCompat="@drawable/melon_play" />
+
+
+                                        </RelativeLayout>
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="48dp"
+                                            android:layout_marginBottom="17dp">
+
+                                            <ImageButton
+                                                android:id="@+id/chart_3"
+                                                android:layout_width="48dp"
+                                                android:layout_height="48dp"
+                                                android:layout_centerVertical="true"
+                                                android:contentDescription="@string/miss_image"
+                                                android:padding="0dp"
+                                                android:scaleType="fitCenter"
+                                                app:srcCompat="@drawable/melon_chart_music3" />
+
+                                            <GridLayout
+                                                android:layout_width="240dp"
+                                                android:layout_height="48dp"
+                                                android:layout_marginTop="3dp"
+                                                android:layout_marginBottom="3dp"
+                                                android:layout_toEndOf="@+id/chart_3"
+                                                android:columnCount="2"
+                                                android:orientation="vertical"
+                                                android:rowCount="2">
+
+
+                                                <TextView
+                                                    android:id="@+id/chart_3_1"
+                                                    android:layout_width="16dp"
+                                                    android:layout_height="23dp"
+                                                    android:layout_row="0"
+                                                    android:layout_column="1"
+                                                    android:layout_marginStart="12dp"
+                                                    android:layout_marginTop="1dp"
+                                                    android:gravity="center"
+                                                    android:text="@string/rank3"
+                                                    android:textColor="#666867"
+                                                    android:textSize="16sp" />
+
+                                                <ImageView
+                                                    android:id="@+id/chart_3_2"
+                                                    android:layout_width="5dp"
+                                                    android:layout_height="20dp"
+                                                    android:layout_gravity="top|center"
+                                                    android:layout_marginStart="12dp"
+                                                    android:contentDescription="@string/miss_image"
+                                                    app:srcCompat="@drawable/melon_bar" />
+
+                                                <TextView
+                                                    android:id="@+id/chart_3_3"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="start"
+                                                    android:layout_marginStart="12dp"
+                                                    android:text="@string/chart_music_3_name"
+                                                    android:textColor="#1C1C1C" />
+
+                                                <TextView
+                                                    android:id="@+id/chart_3_4"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="bottom"
+                                                    android:layout_marginStart="12dp"
+                                                    android:text="@string/chart_music_3_singer"
+                                                    android:textColor="#B7B7B7"
+                                                    android:textSize="13sp" />
+                                            </GridLayout>
+
+                                            <ImageButton
+                                                android:layout_width="20dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_alignParentEnd="true"
+                                                android:background="#DDFFFFFF"
+                                                android:contentDescription="@string/miss_image"
+                                                android:padding="0dp"
+                                                android:scaleType="fitCenter"
+                                                app:srcCompat="@drawable/melon_play" />
+
+
+                                        </RelativeLayout>
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="48dp"
+                                            android:layout_marginBottom="17dp">
+
+                                            <ImageButton
+                                                android:id="@+id/chart_4"
+                                                android:layout_width="48dp"
+                                                android:layout_height="48dp"
+                                                android:layout_centerVertical="true"
+                                                android:contentDescription="@string/miss_image"
+                                                android:padding="0dp"
+                                                android:scaleType="fitCenter"
+                                                app:srcCompat="@drawable/melon_chart_music4" />
+
+                                            <GridLayout
+                                                android:layout_width="240dp"
+                                                android:layout_height="48dp"
+                                                android:layout_marginTop="3dp"
+                                                android:layout_marginBottom="3dp"
+                                                android:layout_toEndOf="@+id/chart_4"
+                                                android:columnCount="2"
+                                                android:orientation="vertical"
+                                                android:rowCount="2">
+
+
+                                                <TextView
+                                                    android:id="@+id/chart_4_1"
+                                                    android:layout_width="16dp"
+                                                    android:layout_height="23dp"
+                                                    android:layout_row="0"
+                                                    android:layout_column="1"
+                                                    android:layout_marginStart="12dp"
+                                                    android:layout_marginTop="1dp"
+                                                    android:gravity="center"
+                                                    android:text="@string/rank5"
+                                                    android:textColor="#666867"
+                                                    android:textSize="16sp" />
+
+                                                <ImageView
+                                                    android:id="@+id/chart_4_2"
+                                                    android:layout_width="5dp"
+                                                    android:layout_height="20dp"
+                                                    android:layout_gravity="top|center"
+                                                    android:layout_marginStart="12dp"
+                                                    android:contentDescription="@string/miss_image"
+                                                    app:srcCompat="@drawable/melon_bar" />
+
+                                                <TextView
+                                                    android:id="@+id/chart_4_3"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="start"
+                                                    android:layout_marginStart="12dp"
+                                                    android:text="@string/chart_music_5_name"
+                                                    android:textColor="#1C1C1C" />
+
+                                                <TextView
+                                                    android:id="@+id/chart_4_4"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="bottom"
+                                                    android:layout_marginStart="12dp"
+                                                    android:text="@string/chart_music_5_singer"
+                                                    android:textColor="#B7B7B7"
+                                                    android:textSize="13sp" />
+                                            </GridLayout>
+
+                                            <ImageButton
+                                                android:layout_width="20dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_alignParentEnd="true"
+                                                android:background="#DDFFFFFF"
+                                                android:contentDescription="@string/miss_image"
+                                                android:padding="0dp"
+                                                android:scaleType="fitCenter"
+                                                app:srcCompat="@drawable/melon_play" />
+
+
+                                        </RelativeLayout>
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="48dp"
+                                            android:layout_marginBottom="5dp">
+
+                                            <ImageButton
+                                                android:id="@+id/chart_5"
+                                                android:layout_width="48dp"
+                                                android:layout_height="48dp"
+                                                android:layout_centerVertical="true"
+                                                android:contentDescription="@string/miss_image"
+                                                android:padding="0dp"
+                                                android:scaleType="fitCenter"
+                                                app:srcCompat="@drawable/melon_chart_music5" />
+
+                                            <GridLayout
+                                                android:layout_width="240dp"
+                                                android:layout_height="48dp"
+                                                android:layout_marginTop="3dp"
+                                                android:layout_marginBottom="3dp"
+                                                android:layout_toEndOf="@+id/chart_5"
+                                                android:columnCount="2"
+                                                android:orientation="vertical"
+                                                android:rowCount="2">
+
+
+                                                <TextView
+                                                    android:id="@+id/chart_5_1"
+                                                    android:layout_width="16dp"
+                                                    android:layout_height="23dp"
+                                                    android:layout_row="0"
+                                                    android:layout_column="1"
+                                                    android:layout_marginStart="12dp"
+                                                    android:layout_marginTop="1dp"
+                                                    android:gravity="center"
+                                                    android:text="@string/rank5"
+                                                    android:textColor="#666867"
+                                                    android:textSize="16sp" />
+
+                                                <ImageView
+                                                    android:id="@+id/chart_5_2"
+                                                    android:layout_width="5dp"
+                                                    android:layout_height="20dp"
+                                                    android:layout_gravity="top|center"
+                                                    android:layout_marginStart="12dp"
+                                                    android:contentDescription="@string/miss_image"
+                                                    app:srcCompat="@drawable/melon_bar" />
+
+                                                <TextView
+                                                    android:id="@+id/chart_5_3"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="start"
+                                                    android:layout_marginStart="12dp"
+                                                    android:text="@string/chart_music_5_name"
+                                                    android:textColor="#1C1C1C" />
+
+                                                <TextView
+                                                    android:id="@+id/chart_5_4"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="bottom"
+                                                    android:layout_marginStart="12dp"
+                                                    android:text="@string/chart_music_5_singer"
+                                                    android:textColor="#B7B7B7"
+                                                    android:textSize="13sp" />
+                                            </GridLayout>
+
+                                            <ImageButton
+                                                android:layout_width="20dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_alignParentEnd="true"
+                                                android:background="#DDFFFFFF"
+                                                android:contentDescription="@string/miss_image"
+                                                android:padding="0dp"
+                                                android:scaleType="fitCenter"
+                                                app:srcCompat="@drawable/melon_play" />
+
+
+                                        </RelativeLayout>
+
+                                    </LinearLayout>
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </HorizontalScrollView>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_gravity="bottom"
+            android:background="#636359"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/playbar_first"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#636359"
+                android:contentDescription="@string/miss_image"
+                android:padding="6dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/melon_list" />
+
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#6B6B61" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#64645A"
+                    android:ellipsize="end"
+                    android:gravity="start|bottom"
+                    android:paddingStart="10dp"
+                    android:paddingTop="4dp"
+                    android:paddingEnd="0dp"
+                    android:singleLine="true"
+                    android:text="@string/playbar_music"
+                    android:textColor="#FCFCFB"
+                    android:textSize="16sp" />
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#64645A"
+                    android:ellipsize="end"
+                    android:gravity="start|top"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:paddingBottom="4dp"
+                    android:singleLine="true"
+                    android:text="@string/playbar_singer"
+                    android:textColor="#3ECD52" />
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#636359"
+                android:contentDescription="@string/miss_image"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/playbar_back" />
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#636359"
+                android:contentDescription="@string/miss_image"
+                android:padding="6dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/playbar_play" />
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#636359"
+                android:contentDescription="@string/miss_image"
+                android:paddingStart="0dp"
+                android:paddingEnd="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/playbar_go" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="33dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:contentDescription="@string/miss_image"
+            app:srcCompat="@drawable/melon_smallmusic" />
+    </FrameLayout>
+
+
+</FrameLayout>

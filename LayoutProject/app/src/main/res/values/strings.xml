@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">LayoutProject</string>
+    <string name="miss_image">MissImage</string>
+    <string name="music">뮤직</string>
+    <string name="video">비디오</string>
+    <string name="my">MY</string>
+    <string name="for_u">For U</string>
+    <string name="star">스타</string>
+    <string name="feed">피드</string>
+    <string name="show">공연</string>
+    <string name="new_music">최신음악</string>
+    <string name="all">전체</string>
+    <string name="domestic">국내</string>
+    <string name="overseas">해외</string>
+    <string name="new_music_1_name">내가 잠이들면 깨우지마세요</string>
+    <string name="new_music_1_imformation">나인(디어클라우드)</string>
+    <string name="new_music_2_name">PRODUCE X 101 - FINAL</string>
+    <string name="new_music_2_imformation">PRODUCE X 101</string>
+    <string name="new_music_3_name">[Vol.25]유희열의 스케치북 10주년 프로젝트</string>
+    <string name="new_music_3_imformation">선우정아</string>
+    <string name="new_music_4_name">JTBC 비긴어게인3 Episode 1</string>
+    <string name="new_music_4_imformation">Various Artists</string>
+    <string name="melon_chart">멜론차트</string>
+    <string name="number1">01</string>
+    <string name="real_time_chart">실시간차트</string>
+    <string name="more">더보기</string>
+    <string name="rank1">1</string>
+    <string name="chart_music_1_name">헤어져줘서 고마워</string>
+    <string name="chart_music_1_singer">벤</string>
+    <string name="rank2">2</string>
+    <string name="chart_music_2_name">술이 문제야</string>
+    <string name="chart_music_2_singer">장혜진, 윤민수(바이브)</string>
+    <string name="rank3">3</string>
+    <string name="chart_music_3_name">니 소식</string>
+    <string name="chart_music_3_singer">송하예</string>
+    <string name="rank4">4</string>
+    <string name="chart_music_4_name">인사</string>
+    <string name="chart_music_4_singer">멜로망스</string>
+    <string name="rank5">5</string>
+    <string name="chart_music_5_name">포장마차</string>
+    <string name="chart_music_5_singer">황인욱</string>
+    <string name="playbar_music">취하고 싶다(Prod. By 전태익)</string>
+    <string name="playbar_singer">황인욱</string>
+
+
+</resources>

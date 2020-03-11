@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.hsjnetworkproject.networkproject.MainActivity">
+
+    <TextView
+        android:id="@+id/inf_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="제목이다"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inf_name"/>
+
+    <WebView
+        android:id="@+id/inf_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:focusable="false"
+        android:scaleType="fitCenter"
+        android:background="@color/background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view">
+    </WebView>
+
+    <TextView
+        android:id="@+id/inf_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="관리ID : F2011022300001699"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inf_image"/>
+
+    <TextView
+        android:id="@+id/inf_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inf_id"/>
+
+    <TextView
+        android:id="@+id/inf_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inf_date"/>
+
+    <TextView
+        android:id="@+id/inf_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="문의전화 : 182"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/inf_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FAFAFA"
+        android:text="쇼핑하기"
+        android:textColor="#EE3245"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inf_image" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NetworkProject</string>
+    <string name="fb_login_protocol_scheme"> fb_login_protocol_scheme</string>
+    <string name="app_id">721168854998918</string>
+    <string name="kakao_key">d6ccd32b86ad3d6ac5216ee67f614347</string>
+    <string name="google_key">AIzaSyCoBqqxN-mu8sRRe2sTFp9Q28gaLJshpys</string>
+    <string name="shop_key">fedbeea5efc8f687da2910636c778f1b</string>
+</resources>
